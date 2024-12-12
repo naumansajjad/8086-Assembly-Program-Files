@@ -37,7 +37,7 @@ start:
 
     ; Print prompt
 
-    mov dx, offset prompt
+    lea dx, offset prompt
 
     mov ah, 09h       ; DOS interrupt to display string
 
@@ -191,7 +191,7 @@ print_digits:
 
     ; Print newline
 
-    mov dx, offset newline
+    lea dx, offset newline
 
     mov ah, 09h       ; DOS interrupt to display string
 
