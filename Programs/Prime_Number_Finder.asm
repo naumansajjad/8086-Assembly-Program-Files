@@ -1,11 +1,10 @@
 ; Program to find and output all prime numbers less than the input number
 
-.model small
-.stack 100h
-.data
+org 100h
+section .data
 prompt db "Enter a number: $",0
 newline db 0Dh, 0Ah, "$"
-.code
+section .code
 main proc
 
 start:
