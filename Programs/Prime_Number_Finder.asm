@@ -1,18 +1,6 @@
 ; Program to find and output all prime numbers less than the input number
 
-<<<<<<< HEAD
 org 100h
-section .data
-prompt db "Enter a number: $",0
-newline db 0Dh, 0Ah, "$"
-section .code
-main proc
-=======
-
-
-org 100h
-
-
 
 section .data
 
@@ -20,18 +8,9 @@ prompt db "Enter a number: $"
 
 newline db 0Dh, 0Ah, "$"
 
-
-
 section .bss
 
-input resb 4      ; Buffer to store input
-
-
-
 section .text
-
-
->>>>>>> 91dd9bc (added sections for nasm compatibility)
 
 start:
 
