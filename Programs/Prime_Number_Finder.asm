@@ -1,5 +1,20 @@
 ; Program to find and output all prime numbers less than the input number
 
+; For running in asm8086 replace the code above start tag with this code. 
+;.model small
+;.stack 100h
+;.data
+;prompt db "Enter a number: $"
+;newline db 0Dh, 0Ah, "$"
+;.code
+;main proc
+
+;also add this code to the end of program
+;mov ah,4ch
+;int 21h
+;main endp
+;end main
+
 org 100h
 
 section .data
